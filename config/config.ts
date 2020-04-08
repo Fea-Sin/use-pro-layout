@@ -55,8 +55,11 @@ export default {
       component: '../layouts/BasicLayout',
       routes: [
         {
+          path: '/',
+          redirect: '/accountsettings',
+        },
+        {
           name: '个人设置',
-          icon: 'smile',
           path: '/accountsettings',
           component: './AccountSettings',
         },

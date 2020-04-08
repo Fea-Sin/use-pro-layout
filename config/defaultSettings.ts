@@ -4,7 +4,7 @@ export type ContentWidth = 'Fluid' | 'Fixed';
 
 export interface DefaultSettings {
   /**
-   * theme for nav menu
+   * theme for nav menu: 'dark' | 'light'
    */
   navTheme: MenuProps['theme'];
   /**
@@ -35,10 +35,10 @@ export interface DefaultSettings {
 }
 
 export default {
-  navTheme: 'dark',
+  navTheme: 'light',
   primaryColor: '#1890ff',
-  layout: 'sidemenu',
-  contentWidth: 'Fluid',
+  layout: 'topmenu',
+  contentWidth: 'Fixed',
   fixedHeader: false,
   fixSiderbar: false,
   colorWeak: false,

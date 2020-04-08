@@ -7,5 +7,5 @@ use pro-layout
 ```bush
 npm install
 
-npm dev
+npm start
 ```

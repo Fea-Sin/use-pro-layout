@@ -11,10 +11,10 @@
     "moduleResolution": "node",
     "forceConsistentCasingInFileNames": true,
     "noImplicitReturns": true,
-    "suppressImliciAnyIndexErrors": true,
+    "suppressImplicitAnyIndexErrors": true,
     "noUnusedLocals": true,
     "experimentalDecorators": true,
-    "scrict": true,
+    "strict": true,
     "declaration": true,
     "skipLibCheck": true,
     "paths": {

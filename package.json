@@ -7,12 +7,13 @@
   "scripts": {
     "analyze": "cross-env ANALYZE=1 umi build",
     "build": "umi build",
-    "dev": "umi dev"
+    "start": "umi dev"
   },
   "dependencies": {
     "@ant-design/compatible": "^0.0.1-rc.0",
     "@ant-design/dark-theme": "^0.2.0",
     "@ant-design/icons": "^4.0.0-alpha.11",
+    "@ant-design/pro-layout": "^5.0.9",
     "@antv/data-set": "^0.10.2",
     "@types/lodash.debounce": "^4.0.6",
     "@types/lodash.isequal": "^4.5.5",
