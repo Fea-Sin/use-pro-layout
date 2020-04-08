@@ -1,19 +1,13 @@
-/**
- * Ant Design Pro v4 use `@ant-design/pro-layout` to handle Layout.
- * You can view component api by:
- * https://github.com/ant-design/ant-design-pro-layout
- */
-
 import ProLayout, {
   MenuDataItem,
   BasicLayoutProps as ProLayoutProps,
   Settings,
   SettingDrawer,
-  DefaultFooter,
 } from '@ant-design/pro-layout';
 import React, { useState } from 'react';
 import { HeartTwoTone } from '@ant-design/icons';
 import defaultSettings from '../../config/defaultSettings';
+import DefaultFooter from '@/components/DefaultFooter';
 
 import Link from 'umi/link';
 import history from 'umi/router';

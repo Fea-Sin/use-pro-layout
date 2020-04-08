@@ -56,12 +56,11 @@ export default {
       routes: [
         {
           path: '/',
-          redirect: '/accountsettings',
-        },
-        {
-          name: '个人设置',
-          path: '/accountsettings',
-          component: './AccountSettings',
+          redirect: '/welcome',
+        },  {
+          name: '欢迎',
+          path: '/welcome',
+          component: './Welcome',
         },
       ],
     }
