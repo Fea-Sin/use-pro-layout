@@ -1,5 +1,7 @@
 import { IConfig, IPlugin } from 'umi-types';
 import slash from 'slash2';
+import defaultSettings from './defaultSettings';
+import themePluginConfig from './themePluginConfig';
 
 const plugins: IPlugin[] = [
   ['umi-plugin-antd-icon-config', {}],
@@ -31,7 +33,9 @@ const plugins: IPlugin[] = [
       autoAddMenu: true,
     },
   ],
-]
+];
+
+// plugins.push(['umi-plugin-antd-theme', themePluginConfig]);
 
 export default {
   plugins,
@@ -43,7 +47,7 @@ export default {
     ie: 11,
   },
   theme: {
-
+    '@primary-color': defaultSettings.primaryColor,
   },
   routes: [
     {
